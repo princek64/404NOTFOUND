@@ -1,0 +1,105 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Space Mono;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 3%;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.left-section h3{
+    align-self: flex-start;
+}
+
+.left-section img{
+    align-self: center;
+    display: flex;
+    width: 160%;
+}
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 2%;
+}
+
+.right-section h1{
+    font-size: 4.3vmax;
+}
+
+.right-section h3{
+    margin-top: 4%;
+    font-size: 2.1vmax;
+    font-weight: 500;
+}
+
+.right-section button{
+    margin-top: 5%;
+    width: 34%;
+    padding: 2% 2%;
+    background: black;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Space Mono;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.right-section button:hover {opacity: 0.8}
+
+footer{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: initial;
+    }
+
+    .left-section img {
+        width: 100%;
+        margin-top: 21%;
+    }
+
+    .right-section {
+        margin: 6% 4%;
+        text-align: left;
+    }
+
+    .right-section button {
+        margin-top: 11%;
+        width: 60%;
+        padding: 5% 3%;
+        font-size: 1rem;
+        font-family: Space Mono;
+        text-align: center;
+    }
+
+    footer h3{
+        font-size: 1rem;
+    }
+  }
