@@ -57,8 +57,8 @@ body{
 
 .right-section button{
     margin-top: 5%;
-    width: 34%;
-    padding: 2% 2%;
+    width: max-content;
+    padding: 2% 5%;
     background: black;
     color: white;
     font-size: 1.5rem;
